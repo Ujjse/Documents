@@ -1,0 +1,9 @@
+loops that are used in the terms of the programming
+
+They are 
+ 1. Do while loop and For loop
+
+
+ no 1 : While loop 
+ While loop terminates the programme once it reaches the fixed the point:
+ 

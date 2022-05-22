@@ -1,0 +1,30 @@
+def fibo(n)
+n=("Enter the value of the fibo")
+
+  if n==1:
+        return 0
+    elif n==2:
+        return 1
+    elif n==0:
+        return "invalid Input"
+    else:
+        return fibo(n-1) + fibo(n-2)
+
+The formulae to find the fibonacci series is as the following
+
+
+fibo(n-1) + fibo (n-2)
+
+if the num is given 8 or 9 or 10 or as so on as to the given condition the term keeps calculating as the given condition....
+
+
+#like if the number or the terms is 8 or so on then the stuff goes on
+if n==8 
+fibo(8-1) + fibo (8-2)= 7+6 = 13
+fibo(7-1) + fibo (7-2)=6+5
+fibo(n-1) + fibo (n-2)=
+fibo(n-1) + fibo (n-2)=
+fibo(n-1) + fibo (n-2)=
+fibo(n-1) + fibo (n-2)=
+fibo(n-1) + fibo (n-2)=
+fibo(n-1) + fibo (n-2)=
