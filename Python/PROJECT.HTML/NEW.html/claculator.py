@@ -6,7 +6,7 @@ root = Tk() #Calling Tk()
 text_Input=StringVar()
 root.config(bg="black")
 root.title ("Simple Calculator")#Naming The calculator.
-e= Entry(root, width=35, borderwidth=5,textvariable=text_Input,bd=10,fg="White",bg="Red")
+e= Entry(root, width=35, borderwidth=5,textvariable=text_Input,bd=10,fg="Black",bg="White")
 e.grid(row=0, column=0, columnspan=3, padx=10, pady=10)
 operator=" " #Setting operator empty so that the user can change the operator accordingly.
 
