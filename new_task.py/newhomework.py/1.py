@@ -208,6 +208,6 @@ else:
 from tkinter import *
 win=Tk()
 win.title("System")
-win.iconbitmap("ujj.ico")
+win.iconbitmap("/Users/ujjwalpariyar/Documents/new_task.py/newhomework.py/ujj.ico")
 win.maxsize(width=300,height=200)
 win.mainloop()
