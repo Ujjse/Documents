@@ -57,19 +57,17 @@ root=Tk()
 """
 
 
+# from tkinter import *
+# from PIL import Image,ImageTk
+# window=Tk()
+# window.title("LOGIN")
+# my_image=Image.open("/Users/ujjwalpariyar/Downloads/ndYhJu.jpg")
+# resized_image=my_image.resize((300,250))
+# converted_image=ImageTk.PhotoImage(resized_image)
+# mylabel=Label(window,image=converted_image)
+# mylabel.pack()
+# window.mainloop()
 
-"""
-from tkinter import *
-from PIL import Image,ImageTk
-window=Tk()
-window.title("LOGIN")
-my_image=Image.open("/Users/ujjwalpariyar/Downloads/ndYhJu.jpg")
-resized_image=my_image.resize((300,250))
-converted_image=ImageTk.PhotoImage(resized_image)
-mylabel=Label(window,image=converted_image)
-mylabel.pack()
-window.mainloop()
-"""
 
 """
 #To pop up a message box after a click
@@ -182,21 +180,21 @@ root.mainloop()
 """
 
 
-from tkinter import*
-root=Tk()
-root.geometry("640x900")
-root.title=("Calculator")
+# from tkinter import*
+# root=Tk()
+# root.geometry("640x900")
+# root.title=("Calculator")
 
-scvalue=StringVar()
-scvalue.set("")
-screen=Entry(root,textvar=scvalue,font="lucida 40 bold")
-screen.pack(fill=X, ipadx=8,pady=10,padx=10)
+# scvalue=StringVar()
+# scvalue.set("")
+# screen=Entry(root,textvar=scvalue,font="lucida 40 bold")
+# screen.pack(fill=X, ipadx=8,pady=10,padx=10)
 
-f=Frame(root,bg="Grey")
-b=Button(f,text="g",padx=28,pady=22,font="Lucida 35 bold")
-b.pack(side=LEFT,padx=18,pady=12)
-b.bind("<Button-1>",click)
+# f=Frame(root,bg="Grey")
+# b=Button(f,text="g",padx=28,pady=22,font="Lucida 35 bold")
+# b.pack(side=LEFT,padx=18,pady=12)
+# b.bind("<Button-1>",click)
 
 
 
-root.mainloop()
+# root.mainloop()
